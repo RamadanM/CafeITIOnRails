@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
 
   #resources :odrder_products
-  root 'users#index'
+  get ':controller(/:action(/:id))'
+  root :to => 'users#index'
+
   # mount RailsAdmin::Engine => '/admin/', as: 'rails_admin'
   # devise_for :users, :controllers => {:registrations => "registrations"}
   # resources :odrder_products
