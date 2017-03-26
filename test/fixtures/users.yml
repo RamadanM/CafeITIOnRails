@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  ext: 1
+  room_no: 1
+  admin: false
+
+two:
+  name: MyString
+  ext: 1
+  room_no: 1
+  admin: false
