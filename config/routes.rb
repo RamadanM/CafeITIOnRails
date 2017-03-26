@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 
   #resources :odrder_products
-  get ':controller(/:action(/:id))'
+  # get ':controller(/:action(/:id))'
   root :to => 'users#index'
 
   # mount RailsAdmin::Engine => '/admin/', as: 'rails_admin'
